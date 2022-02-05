@@ -16,6 +16,7 @@ public class Fila {
                     primeiroNo = primeiroNo.getRefNo();
                 } else break;
             }
+            return primeiroNo;
         }
         return null;
     }
